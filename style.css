@@ -1,0 +1,472 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+header {
+    background: #295570;
+    color: #ffffff;
+    padding-top: 25px;
+    min-height: 40px;
+    border-bottom: ''
+}
+
+h1{
+    cursor: pointer;
+    font-size: 200%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    text-align: 23px ;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+
+body {
+    background-color: lightblue;
+  }
+
+
+
+#navbar {
+    height: 10%;
+    width: 85%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 150px;
+    float: left;
+    padding-left: 5%;
+    padding-top: 1%;
+}
+
+#navbar h1 {
+    float: left;
+    padding-right: 10%;
+}
+
+
+#navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+ #navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #fff;
+    position:absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+#navbar ul li:hover:after{
+    width: 100%;
+}
+
+input{
+    display: flex;
+    border-radius: 0px;
+    border: 10px;
+    height: 20px; 
+    width: 100%;
+    padding: 10px 30px 10px 30px;
+    outline: 50%;
+    background-color: white;
+}
+
+map{
+    height: 100px;
+}
+
+#form {
+    position:absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    width: 350px;
+}
+
+#form h3 {
+    font-size: 20px;
+    color: #295570 ;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 50px 0;
+}
+ 
+#form fieldset{
+    border: 0 none;
+}
+#form label {
+    font-size: 20px;
+    margin: 20px, 0;
+}
+
+#form input {
+    font-size: 15px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+#form legend {
+    font-size: 25px;
+}
+
+#form button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 5px 10px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#form button:hover{
+    color: #295570;
+}
+
+#footer {
+    width: 100%;
+    background-color: #295570;
+    text-align: center;
+    padding: 30px 0 30px 0;
+    color: white;
+    position: absolute;
+}
+
+
+#login {
+    position:absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    width: 350px;
+}
+
+
+#login h3 {
+    font-size: 20px;
+    color: #295570 ;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 50px 0;
+}
+ 
+#login fieldset{
+    border: 0 none;
+}
+#login label {
+    font-size: 20px;
+    margin: 20px, 0;
+}
+
+#login input {
+    font-size: 15px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+#login legend {
+    font-size: 25px;
+}
+
+#login button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 5px 10px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#login button:hover{
+    color: #295570;
+}
+
+
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.row {
+    width: 100%;
+    padding: 50px 100px;
+}
+
+.content { 
+    width: 60%;
+    float: left;
+    margin-left: 50px;
+}
+
+.content h1{
+    font-size: 75px;
+    letter-spacing: 3.5px;
+    margin-top: 25px;
+    color: #295570;
+}
+
+.content h2 {
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #295570;
+    margin-top: 25px;
+}
+
+.content p {
+    font-size: 20px;
+    font-family: serif;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+
+#revieew {
+    position:absolute;
+    margin-left: 450px;
+    top: 60%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    width: 350px;
+}
+
+
+.Container fieldset{
+    border: 0 none;
+}
+.Container label {
+    font-size: 20px;
+    margin: 20px, 0;
+}
+
+.Container h3 {
+    font-size: 20px;
+    color: #295570 ;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 50px 0;
+}
+
+.Container input {
+    font-size: 15px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+.Container form label {
+   
+    font-size: 20px;
+    margin: 20px, 0;
+}
+
+
+.Container button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 5px 10px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.Container button:hover{
+    color: #295570;
+}
+
+reviewbox {
+    font-size: 20px;
+    }
+/* SM Icons */
+  
+.fa {
+    padding:10px;
+    font-size: 18px;
+    width:15px;
+    height:10px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: rgb(14, 69, 109);
+    color: rgb(255, 255, 255);
+  }
+    
+
+  
+footer {
+	height:8%;
+	background-color: #005180;
+	color: white;
+    clear: both;
+    border: 1px solid white;
+    border-radius: 1px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width:100%;
+    
+}
+footer p {
+	text-align: center;
+}
+
+.div50 {
+	text-align: center;
+  }
+  
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 50%; 
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  #banner 
+  {
+      overflow: hidden;
+      height: 500px;
+      background: url(food.jpg) no-repeat center;
+      background-size: cover;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn { 
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn { 
+      width: 100%;
+      padding: 0;
+    }
+  }
